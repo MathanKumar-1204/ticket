@@ -1,0 +1,39 @@
+.download-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.download-header {
+  border: 2px double #000; /* Double line border */
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgb(250, 247, 211); /* Pale yellow color */
+  color: black;
+  max-width: 600px; /* Adjusted for larger horizontal size */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-header h1 {
+  margin-top: 0;
+}
+
+.download-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: lightblue;
+}

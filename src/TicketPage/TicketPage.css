@@ -1,0 +1,73 @@
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ticket {
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.ticket::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px dashed #000;
+    z-index: -1;
+    background: repeating-linear-gradient(
+        135deg,
+        #fff,
+        #fff 5px,
+        #000 5px,
+        #000 10px
+    );
+}
+
+.app-name {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ticket-details {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.fare-paid {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+}
+
+.ticket-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.ticket-actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ticket-actions button:hover {
+    background-color: #0056b3;
+}

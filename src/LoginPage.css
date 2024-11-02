@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:babyblue;
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('BG.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right:0px;
+    padding-left: 200px;
+
+}
+
+.login-container {
+    display: flex;
+    background-color: white;
+    padding: 20% 10%;
+    border-radius: 15px;
+    width: 190%;
+    height: 100%;  /* Ensures the container occupies 70% of the page height */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.3);
+    
+}
+
+.creds {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 70px;
+}
+
+.logo p {
+    font-size: 1rem;
+    color: black;
+    
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.abc {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.abc:hover {
+    background-color: babyblue;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+   
+}
