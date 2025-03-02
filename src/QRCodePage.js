@@ -9,7 +9,7 @@ const QRCodePage = () => {
   const { passData } = state || {}; // Extract passData from state
   const navigate = useNavigate();
 
-  const upiId = 'rajalakshmitarun2007@oksbi';
+  const upiId = 'mathan@oksbi';
   const payeeName = 'Rajalakshmi G';
 
   const generateUpiLink = (amount, upiId, payeeName) => {
