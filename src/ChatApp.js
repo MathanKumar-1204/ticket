@@ -15,7 +15,7 @@ function ChatApp() {
 
     // Call the Flask backend to get the response from Groq
     try {
-      const response = await fetch('http://localhost:5000/chat', {  // Updated endpoint
+      const response = await fetch('https://ticketserver-5bte.onrender.com/chat', {  // Updated endpoint
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
